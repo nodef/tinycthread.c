@@ -1,0 +1,26 @@
+{
+  "name": "tinycthread.c",
+  "version": "1.2016.9",
+  "description": "Small, portable implementation of the C11 threads API; Evan Nemerson (2012).",
+  "keywords": [
+    "c",
+    "library",
+    "threads",
+    "c11",
+    "tinycthread"
+  ],
+  "homepage": "https://github.com/nodef/tinycthread.c#readme",
+  "bugs": {
+    "url": "https://github.com/nodef/tinycthread.c/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nodef/tinycthread.c.git"
+  },
+  "license": "Zlib",
+  "author": "wolfram77@gmail.com",
+  "main": "tinycthread.h",
+  "scripts": {
+    "test": "exit"
+  }
+}
