@@ -1,6 +1,6 @@
 {
   "name": "tinycthread.c",
-  "version": "1.2016.9",
+  "version": "1.2016.11",
   "description": "Small, portable implementation of the C11 threads API; Evan Nemerson (2012).",
   "keywords": [
     "c",

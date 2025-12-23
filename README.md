@@ -29,6 +29,7 @@ And then include `tinycthread.h` as follows:
 
 ```c
 // main.c
+#define TINYCTHREAD_IMPLEMENTATION
 #include "node_modules/tinycthread.c/tinycthread.h"
 
 int main() { /* ... */ }
@@ -45,6 +46,7 @@ You may also use a simpler approach:
 
 ```c
 // main.c
+#define TINYCTHREAD_IMPLEMENTATION
 #include <tinycthread.h>
 
 int main() { /* ... */ }
@@ -138,5 +140,6 @@ freely, subject to the following restrictions:
 <br>
 
 
+[![SRC](https://img.shields.io/badge/src-repo-green?logo=Org)](https://github.com/tinycthread/tinycthread)
 [![ORG](https://img.shields.io/badge/org-nodef-green?logo=Org)](https://nodef.github.io)
 ![](https://ga-beacon.deno.dev/G-RC63DPBH3P:SH3Eq-NoQ9mwgYeHWxu7cw/github.com/nodef/tinycthread.c)
